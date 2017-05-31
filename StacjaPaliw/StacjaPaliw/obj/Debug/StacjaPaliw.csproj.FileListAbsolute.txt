@@ -1,0 +1,53 @@
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.StacjaPaliw.resources
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Properties.Resources.resources
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Tankowanie.resources
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.csproj.GenerateResource.Cache
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaPaliw.exe.config
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaPaliw.exe
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaPaliw.pdb
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.exe
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.pdb
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaPaliw.exe.config
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaPaliw.exe
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaPaliw.pdb
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.csprojResolveAssemblyReference.cache
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.StacjaPaliw.resources
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Properties.Resources.resources
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Tankowanie.resources
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.csproj.GenerateResource.Cache
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.exe
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.pdb
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\HtmlAgilityPack.dll
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\HtmlAgilityPack.xml
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaBenzynowa.mdf
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaBenzynowa_log.ldf
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Nowy.resources
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Raport.resources
+C:\Users\kacpe\Downloads\aisd\projekt\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Wybierz.resources
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaBenzynowa.mdf
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaBenzynowa_log.ldf
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\HtmlAgilityPack.dll
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\bin\Debug\HtmlAgilityPack.xml
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.csprojResolveAssemblyReference.cache
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Raport.resources
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Nowy.resources
+C:\Users\l.kaim\Documents\Visual Studio 2015\Projects\wptasznik\StacjaPaliw\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Wybierz.resources
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.csprojResolveAssemblyReference.cache
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.StacjaPaliw.resources
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Raport.resources
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Nowy.resources
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Properties.Resources.resources
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.Tankowanie.resources
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.csproj.GenerateResource.Cache
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.exe
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\obj\Debug\StacjaPaliw.pdb
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaBenzynowa.mdf
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaBenzynowa_log.ldf
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaPaliw.exe.config
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaPaliw.exe
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\bin\Debug\StacjaPaliw.pdb
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\bin\Debug\HtmlAgilityPack.dll
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\kacpe\Downloads\aisd\StacjaPaliw\StacjaPaliw\bin\Debug\HtmlAgilityPack.xml

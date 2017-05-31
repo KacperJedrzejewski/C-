@@ -1,0 +1,216 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+using Timer = System.Timers.Timer;
+using System.Timers;
+using System.Threading;
+
+namespace StacjaPaliw
+{
+    public partial class Tankowanie : Form
+    {
+        SqlConnection conn;
+        DataTable dt;
+        Double cena;
+        private static Timer loopTimer;
+
+        public Tankowanie(SqlConnection conn, DataTable dt, Double cena)
+        {
+            InitializeComponent();
+            this.cena = cena;
+            //tutaj musisz zmienic SqlConnection: view -> Server Explorer -> Properties -> ConnectionString 
+            this.conn = conn;
+            this.dt = dt;
+            FillList();
+
+        }
+
+
+        private void Taknowanie_Load(object sender, EventArgs e)
+        {
+            var b = new Button { Text = "Press me" };
+
+            int counter = 0;
+            Thread countThread = null;
+            bool stop = false;
+
+            b.MouseDown += (s, e1) =>
+            {
+                stop = false;
+                counter = 0;
+                countThread = new Thread(() =>
+                {
+                    while (!stop)
+                    {
+                        counter++;
+                        Thread.Sleep(100);
+                    }
+                });
+                countThread.Start();
+            };
+
+            b.MouseUp += (s, e1) =>
+            {
+                stop = true;
+                countThread.Join();
+                MessageBox.Show(counter.ToString());
+            };
+        }
+
+
+       
+
+        private class Klient
+        {
+            public string Imie,Nazwisko;
+           
+            public Klient(string imie, string nazwisko)
+            {
+               Imie = imie; Nazwisko = nazwisko;
+            }
+            public override string ToString()
+            {
+                // Generates the text shown in the combo box
+                string Name = Imie;
+                Name += " " + Nazwisko;
+                return Name;
+            }
+        }
+
+        private void FillList()
+        {
+            ListaKlientow.Items.Clear();
+
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                ListaKlientow.Items.Add(new Klient(dt.Rows[i][1].ToString(), dt.Rows[i][2].ToString()));
+            }
+        }
+        
+
+        private void ZapiszDoBazy(double kwota)
+        {
+            int idK = 1 , id = 1;
+
+            Klient klient = (Klient)ListaKlientow.SelectedItem;
+            try
+            {
+                for (int i = 0; i < dt.Rows.Count; i++)
+                {
+                    if ((String)dt.Rows[i][1] == klient.Imie && (String)dt.Rows[i][2] == klient.Nazwisko)
+                    {
+                        idK = Convert.ToInt32(dt.Rows[i][0]);
+                        break;
+                       
+
+                    }
+                }
+            }
+            catch
+            {
+                MessageBox.Show("prosze wybrac swoje imie i nazwisko z listy");
+                return;
+            }
+            string data = DateTime.Now.ToString().Substring(0, 11);
+            int tmp = 0;
+            Double ile = kwota / cena;
+            ile = Math.Round(ile, 4);
+            string ileS =  ile.ToString().Replace(",", ".");
+            
+            while (tmp !=1)
+            {
+                try
+                {
+                    SqlCommand sc = new SqlCommand();
+                    sc.Connection = conn;
+                    sc.CommandText = "INSERT INTO Tankowania (Id,Id_klienta,data,Kwota,Ilosc_litrow) Values('" + id+"','"+idK+"','"+data+ "','" + (float)kwota + "',CONVERT(float, '"+ileS+"'))";
+                    sc.ExecuteNonQuery();
+                    MessageBox.Show("Pomyslnie odano ");
+                    tmp = 1;
+                    
+                }
+                catch 
+                {
+                    id++;
+
+
+                }
+            }
+            this.Close();
+
+        }
+
+        private void BtnTankuj_Click(object sender, EventArgs e)
+        {
+            Double kwota;
+            if (rbt20.Checked) kwota = 20.00;
+            if (rbt050.Checked) kwota = 50.00;
+            if (rbt100.Checked) kwota = 100.00;
+            if (rbt150.Checked) kwota = 150.00;
+            if (rbt200.Checked) kwota = 200.00;
+            else kwota = Convert.ToDouble(txtZaKwote.Text);
+            
+            ZapiszDoBazy(kwota);
+
+        }
+
+        private void RbtZaKwote_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbtZaKwote.Checked) txtZaKwote.ReadOnly = false;
+            else txtZaKwote.ReadOnly = true;
+
+
+        }
+
+        private void button1_MouseDown(object sender, MouseEventArgs e)
+        {
+            int counter = 0;
+            Thread countThread = null;
+            bool stop = false;
+
+            button1.MouseDown += (s, e1) =>
+            {
+                stop = false;
+                counter = 0;
+                countThread = new Thread(() =>
+                {
+                    while (!stop)
+                    {
+                        counter++;
+                        Thread.Sleep(100);
+                    }
+                });
+                countThread.Start();
+            };
+
+            button1.MouseUp += (s, e1) =>
+            {
+                stop = true;
+                countThread.Join();
+                MessageBox.Show(counter.ToString());
+            };
+        }
+
+     
+
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            double kwota;
+            kwota = Convert.ToDouble(txtZaKwote.Text);
+            kwota += cena / 15;
+            txtZaKwote.Text = kwota.ToString();
+            
+        }
+     
+         
+      
+    }
+}
